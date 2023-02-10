@@ -7,7 +7,7 @@ def format_file(file_name: str):
     f = open(file_name, encoding="utf8")
     return json.load(f)
 
-json_file = format_file('emails_12.json')
+json_file = format_file('file.json')
 
 def clean_json(data_set):
     raw_arr = list()
